@@ -301,7 +301,6 @@ def chat_completion(dialog, model_name, mode_name, msg_context_size, ctx_checker
     return fanswer, log
 
 
-
 @app.route('/')
 def index():
     return "NLP Backend API"
@@ -313,11 +312,7 @@ def llm_infer():
     content_type = request.headers.get('Content-Type')
     if (content_type == 'application/json'):
         json = request.json
-        
         json['chat_history'] = [x for x in json['chat_history'] if x['role']=='user']
-        
-        ## Need to validate json
-        # need to chat history. must not be empty
         
         cls_threshold = 0.33
         ctx_checker_tmp = 0.008
@@ -331,9 +326,7 @@ def llm_infer():
             
             cls_threshold = json['config']['cls_threshold']
             llm_enable = json['config']['llm_enable']
-            
             print('Debug Mode:  ', ctx_checker_tmp, lm_tmp)
-        
         
         ## Run Model
         print('Transcription Started')
@@ -371,16 +364,7 @@ def llm_infer():
                         'reasoning': log['llm_reasoning'],
                         'input': log['llm_input'],
                         'message_ctx': log['message_ctx']
-                    },
-                    'risk_llm': {
-                        
-                    },
-                    'risk_detection': {
-                        
-                    },
-                    'sop_module': {
-                        
-                    },  
+                    }
                 }
             }
         }
