@@ -51,7 +51,7 @@ Our mission is to leverage the power of artificial intelligence to bridge the ga
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To run the chatbot in you local computer please follow the steps below. We use GPU to run the embedding model. If you want to run the embedding model with CPU please replace "cuda" with "cpu" in code.
+To run the chatbot in you local computer please follow the steps below. We use GPU to run the embedding model. If you want to run it with CPU please replace "cuda" with "cpu" in code. We provided a subset of knowledge base of the chatbot in `src/data` folder. To get full data please contact us.
 
 ### Prerequisites
 Please install the following prerequisites before proceeding.
