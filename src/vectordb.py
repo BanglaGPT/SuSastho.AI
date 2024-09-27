@@ -120,13 +120,13 @@ def get_docs(base_path, chunk_size, chunk_overlap, separators):
     print('Duplicates: ', len(docs)-len(docs_unique))
     print('Unique Docs: ', len(docs_unique))
     
-    pd.DataFrame({
-        'fname':[x['fname'] for x in metas_unique],
-        'id': [x['id'] for x in metas_unique],
-        'context':[x['context'] for x in metas_unique],
-        'question':[x['question'] for x in metas_unique],
-        'answer':[x for x in metas_unique],
-    }).to_csv('./docx_context.csv', index=False, encoding='utf-8')
+    # pd.DataFrame({
+    #     'fname':[x['fname'] for x in metas_unique],
+    #     'id': [x['id'] for x in metas_unique],
+    #     'context':[x['context'] for x in metas_unique],
+    #     'question':[x['question'] for x in metas_unique],
+    #     'answer':[x for x in metas_unique],
+    # }).to_csv('./docx_context.csv', index=False, encoding='utf-8')
     
     text_splitter = RecursiveCharacterTextSplitter(
         separators = separators,
