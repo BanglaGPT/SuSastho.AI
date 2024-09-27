@@ -86,6 +86,8 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ### Built With
@@ -95,6 +97,8 @@ Use the `BLANK_README.md` to get started.
 [![HuggingFace][HuggingFace]][HuggingFace-url]
 [![Llama 3][Llama3]][Llama3-url]
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -118,25 +122,31 @@ _Please follow the instructions below to run SuSastho.AI Chatbot._
 
 
 1. Clone the repo
+
    ```sh
    https://github.com/BanglaGPT/SuSastho.AI.git
    ```
 2. Install required packages
+
    ```sh
    pip install -r requirements.txt
    ```
 3. Get API Key at [https://fireworks.ai](https://fireworks.ai/)
 4. Deploy Model on Fireworks. Visit [https://docs.fireworks.ai](https://docs.fireworks.ai/) for more info
+
    ```sh
    firectl create model my-model /path/to/checkpoint/
    firectl deploy my-model
    ```
 3. Enter your API in `.env` file
+
    ```python
    API_KEY = 'ENTER YOUR API'
    
    ```
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -144,6 +154,8 @@ _Please follow the instructions below to run SuSastho.AI Chatbot._
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
