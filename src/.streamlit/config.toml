@@ -1,0 +1,8 @@
+[theme]
+base="light"
+primaryColor="#fd1f74"
+backgroundColor="#f5f7f9"
+secondaryBackgroundColor="#ffffff"
+
+enableCORS = false
+enableXsrfProtection=false

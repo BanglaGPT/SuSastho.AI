@@ -96,7 +96,8 @@ _Please follow the instructions below to run SuSastho.AI Chatbot._
    
 4. Run frontend UI
    ```sh
-   streamlit run
+   cd src
+   streamlit run ui.py
    ```
 
 <!-- LICENSE -->

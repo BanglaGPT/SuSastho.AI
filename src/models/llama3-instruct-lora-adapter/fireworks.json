@@ -1,0 +1,9 @@
+{
+    "defaults": {
+        "stop": [
+            "<|eot_id|>",
+            "<|end_of_text|>"
+        ]
+    },
+    "base_model": "accounts/fireworks/models/llama-v3-8b-instruct-hf"
+}
