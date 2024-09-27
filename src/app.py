@@ -47,7 +47,7 @@ model_emb, tokenizer_emb, context_docs, context_embeddings = load_model(
     data_path=os.environ['DATA_DOC_PATHS'],    #'./nlp_api/data/Fixed/*',
     chunk_size=288, chunk_overlap=0, 
     separators=["\n\n", "\n", "।", "|", "?", ";", "!", ",", "-", "*", " ", ""],
-    device='cuda:0'
+    device='cuda'
 )
 
 
