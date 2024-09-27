@@ -86,7 +86,6 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -97,8 +96,6 @@ Use the `BLANK_README.md` to get started.
 [![HuggingFace][HuggingFace]][HuggingFace-url]
 [![Llama 3][Llama3]][Llama3-url]
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -146,16 +143,12 @@ _Please follow the instructions below to run SuSastho.AI Chatbot._
    ```
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
