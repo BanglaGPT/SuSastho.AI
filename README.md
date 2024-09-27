@@ -58,7 +58,7 @@ _Please follow the instructions below to run SuSastho.AI Chatbot._
    
 4. Deploy Llama3 adapter weight provided in `src/models/llama3-instruct-lora-adapter` on Fireworks. Visit [https://docs.fireworks.ai](https://docs.fireworks.ai/) for more info
 
-3. Get API Key at [https://fireworks.ai](https://fireworks.ai/)
+3. Get Fireworks API Key at [https://fireworks.ai](https://fireworks.ai/)
 
 3. Enter your API Key and Model Path in `src/.env` file
 
