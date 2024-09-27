@@ -18,12 +18,12 @@ base_model: meta-llama/Meta-Llama-3-8B-Instruct
 
 
 - **Developed by:** Shamim Ahamed
-- **Funded by [optional]:** Bill & Melinda Gates Foundation, CMED Health Ltd, IRIIC, UIU
-- **Shared by [optional]:** Shamim Ahamed
+- **Funded by:** Bill & Melinda Gates Foundation, CMED Health Ltd, IRIIC, UIU
+- **Shared by:** Shamim Ahamed
 - **Model type:** Generative Model LoRA Adapter
 - **Language(s) (NLP):** Bangla, English
 - **License:** MIT
-- **Finetuned from model [optional]:** meta-llama/Meta-Llama-3-8B-Instruct
+- **Finetuned from model:** meta-llama/Meta-Llama-3-8B-Instruct
 
 
 ### Framework versions
