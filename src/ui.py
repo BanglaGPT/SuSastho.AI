@@ -53,19 +53,15 @@ st.markdown("""
             padding: 1rem 0.6rem 1rem 1rem;
         }
         
-        
         /*AI avatar background*/
         .st-emotion-cache-1lr5yb2{
             background-color: rgb(65 173 203);
         }
         
-        
-            
         /*Fix Chat send button padding*/
         .stChatFloatingInputContainer button{
             padding: 0.76rem 0.62rem !important;
         }
-            
         
         hr {
             margin: 0em 0px 2em 0em !important;
