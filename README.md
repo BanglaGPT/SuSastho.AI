@@ -24,7 +24,7 @@ Welcome to the official repository for our Adolescent Health Chatbot, a cutting-
 
 Our mission is to leverage the power of artificial intelligence to bridge the gap in adolescent health education and services, particularly in areas often hindered by cultural and societal barriers. We are committed to improving health literacy and empowering adolescents to make informed decisions about their health.
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 
 
